@@ -17,10 +17,10 @@ git checkout -b main
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://<milkteamonster>.github.io
-# git push -f git@github.com:<milkteamonster>/<milkteamonster>.github.io.git main
+# if you are deploying to https://milkteamonster.github.io.milkteamonster/milkteamonster.github.io.git main
+git push -f git@github.com:milkteamonster/milkteamonster.github.io.git main
 
-# if you are deploying to https://<milkteamonster>.github.io/<create-vue-sample>
-git push -f git@github.com:<milkteamonster>/<create-vue-sample>.git main:gh-pages
+# if you are deploying to https://milkteamonster.github.io/create-vue-sample
+# git push -f git@github.com:milkteamonster/create-vue-sample.git main:gh-pages
 
 cd -
